@@ -1,10 +1,10 @@
-name:complex
+name: complex
 
-on:push
+on: push
 
 jobs
-  ubuntu:
-   runs-on:ubuntu-latest
+ubuntu:
+runs-on:ubuntu-latest
     steps:
       -run:date
 windows:
